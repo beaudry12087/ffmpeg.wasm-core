@@ -19,7 +19,7 @@ else
   EXTRA_FLAGS=(
     -o wasm/packages/core-st/dist/ffmpeg-core.js
 		-s INITIAL_MEMORY=33554432                   # 32MB
-		-s MAXIMUM_MEMORY=2147483648                  # 2GB
+		-s MAXIMUM_MEMORY=2147483648                  # 1GB
 		-s ALLOW_MEMORY_GROWTH=1
   )
 fi
